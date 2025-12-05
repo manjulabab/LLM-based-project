@@ -1,0 +1,28 @@
+{
+  "name": "rfp-ai-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "npx nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed/seed.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.3",
+    "openapi": "^1.0.1",
+    "sequelize": "^6.32.1",
+    "zod": "^4.1.13",
+    "zod-to-json-schema": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
